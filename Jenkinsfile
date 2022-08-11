@@ -3,8 +3,8 @@ pipeline {
 	stages {
 		stage('Clone') {
 			steps {
-				git 'https://github.com/nguyenthanhbinh16/demo_jenkinsfile_github.git'
-			}
+				git 'https://github.com/nguyenthanhbinh16/jenkinsfile.git'
+	  		}
 		}
-	}
+  	}	
 }
